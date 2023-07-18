@@ -1,0 +1,118 @@
+
+/* This is a good practice to apply these settings as default in your style sheet! */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: bisque; */
+}
+
+/* This is the style for container. All things that have been commented in this sheet are not in use but were tried in order to set the design!*/
+#container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: bisque;
+    border-radius: 1px;
+    border: 2px solid black;
+    
+    /* background-color: blue; */
+    /* background: white; */
+}
+
+
+
+#div_01{
+    border: 2px solid black;
+    border-radius: 20px;
+    /* height: 80vh; */
+    width: 400px;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    /* margin-bottom: 50%; */
+    padding: 30px;
+    background-color: aliceblue;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.h-2{
+    height: auto;
+    width: 300px;
+    border-radius: 20px;
+    /* padding-left: 30px; */
+
+}
+
+#image{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 30PX;
+}
+
+
+#div_02{
+    /* border: 2px solid red; */
+    /* height: 40px; */
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    /* width: 50%;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px; */
+    /* gap: 20px; */
+    
+}
+#cartButton{
+    height: 50px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: rgb(122, 235, 229);
+    /* font-size: 25px; */
+    font-size: 1.5rem;
+    
+
+}
+a{
+    text-decoration: none;
+    color: rgb(56, 7, 54);
+}
+#div_03{
+    /* border: 2px solid blue;
+    height: 60px; */
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /* width: 50%;
+    padding-left: 30px;
+    padding-right: 30px; */
+    display: flex;
+    justify-content: center;
+} 
+
+/* #div_04{
+    border: 4px dotted rgba(14, 68, 64, 0.966);
+    height: 40px;
+    width: 50%;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+
+#div_05{
+    border: 2px solid green;
+    height: 40px;
+    width: 50%;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+} */
