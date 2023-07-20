@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    background: whitesmoke;
+    justify-content: center;
+    /* align-items: center; */
+}
+#borderBox{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    border: 2px solid rgb(158, 156, 156);
+    width: 90%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px rgb(158, 156, 156);
+    /* background-color: antiquewhite; */
+    background-color: whitesmoke;
+    
+}
+#outerBox{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 3px solid rgb(211, 207, 207);
+    /* align-items: center; */
+    /* background-color: aliceblue; */
+    background-color: whitesmoke;
+}
+#nav{
+    /* border: 2px solid red; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border-bottom: 2px solid rgb(211, 207, 207); */
+    /* background-color: antiquewhite; */
+}
+/* img{
+    width: 50px;
+    height: 50px;
+
+} */
+#name{
+    /* padding-right: 40px; */
+    /* border: 2px solid red; */
+    padding-top: 10px;
+}
+#title{
+    /* padding-left: 40px; */
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#lowerBox{
+    /* border: 5px dotted gray; */
+    display: flex;
+    padding-left: 20px;
+    margin-top: 3%;
+}
+#leftBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    /* border: 1px solid red; */
+    border-radius: 5px;
+    background-color: antiquewhite;
+    padding:30px;
+    border-right: 2px solid rgb(211, 207, 207);
+}
+ol{
+    list-style: none;
+}
+ul{
+    list-style: none;
+}
+#contact {
+    padding: 10px;
+    
+
+
+}
+#education {
+    padding: 10px;
+}
+
+#skills{
+    padding: 10px;
+}
+
+#rightBox{
+    /* border: 1px solid rebeccapurple; */
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    /* padding-left: 30px; */
+    margin-left: 5%;
+    border-left: 2px solid whitesmoke;
+    /* background-color: antiquewhite; */
+
+}
+#summary{
+
+}
+#expereince{
+
+}
+.style-li{
+    /* border: 1px solid red; */
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.style-ol{
+    font-weight: bold;
+    list-style: decimal;
+    padding-left: 50px;
+    font-style: italic;
+}
+/* #ol-01{
+    border: 1px solid red;
+} */
+
